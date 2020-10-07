@@ -1,29 +1,47 @@
-.search-input
-    background: $light
+.input
+    background-color: $light
     border: 1px solid $light-grey
-    box-sizing: border-box
     border-radius: 2px
-    width: 49.28rem
-    min-height: 3.33rem
+    font-family: 'SF Pro Display', sans-serif
     font-size: 1.14rem
     line-height: 1.71rem
     padding-left: 2.28rem
-    background: url('../img/header/home.svg') 0.71rem no-repeat 
-    font-family: 'SF Pro Display', sans-serif
     &::placeholder
-        color: $search-grey
+            color: $search-grey
+    &-adress
+        width: 49.28rem
+        min-height: 3.33rem
+        background: url('../img/header/home.svg') 0.71rem no-repeat 
+    &-search
+        max-height: 2.42rem
+        width: 21.85rem
+        background: url('../img/hero/search.svg') 0.71rem no-repeat 
+
 .button
     padding: 0.57rem 1.14rem 
     border-radius: 2px
     font-family: 'SF Pro Display', sans-serif
+    padding-left: 2.57rem
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015)
+    &:hover
+        cursor: pointer
     &--blue
         border: 1px solid $main-blue
         color: $light
-        padding-left: 2.57rem
         background: $main-blue url('../img/header/user.svg') 1.14rem no-repeat 
     &--regular
         color: $button-grey
-        padding-left: 2.57rem
         background: $light url('../img/header/shopping-cart.svg') 1.14rem no-repeat
         border: 1px solid #D9D9D9
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015)
+.section
+    &__title
+        font-weight: 700
+        margin: 0
+        font-size: 2.57rem
+        line-height: 3rem
+        color: #000000
+    &__heading
+        display: flex
+        justify-content: space-between
+        align-items: baseline
+        margin-bottom: 2.85rem
