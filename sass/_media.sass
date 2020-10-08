@@ -1,0 +1,85 @@
+@media screen and ( max-width: 1366px )
+    html
+        font-size: 12px
+    .menu
+        &__logo
+            margin-right: auto
+    .promo
+        background-size: 47rem
+        background-position: center right -20rem
+@media screen and ( max-width: 992px )
+    .card
+        flex-basis: 45%
+    .promo
+        background-size: 45rem
+        background-position: center right -22rem
+        padding-left: 3rem
+
+@media screen and ( max-width: 768px )
+    .promo
+        background-size: 45rem
+        background-position: center right -22rem
+        padding-left: 1rem
+    .card
+        flex-basis: 60%
+    .cards
+        justify-content: center
+    .promo
+        background-size: 40rem
+        background-position: top -10rem right -19rem
+    .footer
+        &__logo
+            margin-right: 2rem
+        &__nav
+            display: flex
+            flex-wrap: wrap
+        &__item
+            width: 40%
+            &:nth-of-type(-n+2)
+                margin-bottom: 0.4rem
+        &__socials
+            display: flex
+@media screen and ( max-width: 576px )
+    .menu
+        flex-wrap: wrap
+        &__logo
+            margin-bottom: 1rem  
+            flex-basis: 50%  
+        &__input
+            order: 5
+            flex: 1  
+    .promo
+        background-image: none    
+    .footer
+        &__socials
+            align-items: center  
+        &__nav
+            order: 0
+        &__logo
+            order: 1
+            flex-basis: 30%
+        &__socials
+            order: 2
+        &__icon-link
+            & img
+                min-height: 3.5rem !important
+@media screen and ( max-width: 560px )
+    .card
+        flex-basis: unset
+@media screen and ( max-width: 480px )
+    .footer
+        &__wrapper
+            flex-wrap: wrap
+        &__logo
+            order: 0
+            flex-basis: 30%
+        &__nav
+            margin: 0
+            flex-basis: 60%
+            margin-bottom: 2rem
+        &__socials
+            flex-basis: 100%
+            justify-content: center
+    
+            
+    
