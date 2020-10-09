@@ -13,6 +13,7 @@
         min-height: 3.33rem
         background: url('../img/header/home.svg') 0.71rem no-repeat 
     &-search
+        margin-left: auto
         max-height: 2.42rem
         width: 21.85rem
         background: url('../img/hero/search.svg') 0.71rem no-repeat 
@@ -33,6 +34,17 @@
         color: $button-grey
         background: $light url('../img/header/shopping-cart.svg') 1.14rem no-repeat
         border: 1px solid #D9D9D9
+    &--cart
+        margin-right: 2.28rem
+        padding-right: 2.6rem
+        padding-left: 1.14rem
+        font-size: 1.14rem
+        line-height: 2rem
+        color: $light
+        border: 1px solid $main-blue
+        background: $main-blue url('../img/light-cart.svg') 6.2rem no-repeat
+        background-size: 1.8rem 1.8rem
+
 .section
     &__title
         font-weight: 700
@@ -40,8 +52,15 @@
         font-size: 2.57rem
         line-height: 3rem
         color: #000000
+        margin-right: 2.14rem
     &__heading
         display: flex
-        justify-content: space-between
         align-items: baseline
         margin-bottom: 2.85rem
+        flex-wrap: wrap
+.ingredients
+    line-height: 1.5rem
+    font-size: 1.28rem
+    color: #8c8c8c
+    min-height: 4.5rem
+    margin-bottom: 1.5rem
