@@ -17,7 +17,7 @@
                 <input placeholder="Адрес доставки" type="text" class="input input-adress menu__input">
                 <div class="buttons menu__buttons">
                     <button class="button button--blue menu__button">Войти</button>
-                    <button class="button button--regular menu__button">Корзина</button>
+                    <button class="button button__cart button--regular menu__button">Корзина</button>
                 </div>
             </div>
             <!-- /.menu -->
@@ -50,7 +50,7 @@
                 </div>
                 <div class="cards">
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-1.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-1.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular ">
@@ -78,7 +78,7 @@
                     </div>
     
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-2.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-2.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular">
@@ -107,7 +107,7 @@
                     </div>
     
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-3.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-3.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular">
@@ -135,7 +135,7 @@
                     </div>
     
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-4.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-4.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular">
@@ -163,7 +163,7 @@
                     </div>
     
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-5.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-5.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular ">
@@ -192,7 +192,7 @@
                     </div>
     
                     <div class="card">
-                        <img class="card__image" src="./img/rest-content/image-6.png" alt="Пицца">
+                        <img loading="lazy" class="card__image" src="./img/rest-content/image-6.png" alt="Пицца">
                         <div class="card__text">
                             <div class="card__heading">
                                 <h3 class="card__title card__title--regular">
@@ -257,7 +257,105 @@
         <!-- /.container -->
     </footer>
     <!-- /.footer -->
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__header">
+                <h3 class="modal__title">
+                    Корзина
+                </h3>
+                <button class="modal__close">
+                    &times;
+                </button>
+            </div>
+            <!-- /.modal__header -->
+            <div class="modal__body">
+                <div class="food__row">
+                    <span class="food__name">
+                        Ролл угорь стандарт
+                    </span>
+                    <strong class="food__price">
+                        250 ₽
+                    </strong>
+                    <div class="food__counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food__row">
+                    <span class="food__name">
+                        Ролл угорь стандарт
+                    </span>
+                    <strong class="food__price">
+                        250 ₽
+                    </strong>
+                    <div class="food__counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food__row">
+                    <span class="food__name">
+                        Ролл угорь стандарт
+                    </span>
+                    <strong class="food__price">
+                        250 ₽
+                    </strong>
+                    <div class="food__counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food__row">
+                    <span class="food__name">
+                        Ролл угорь стандарт
+                    </span>
+                    <strong class="food__price">
+                        250 ₽
+                    </strong>
+                    <div class="food__counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food__row">
+                    <span class="food__name">
+                        Ролл угорь стандарт
+                    </span>
+                    <strong class="food__price">
+                        250 ₽
+                    </strong>
+                    <div class="food__counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal__body -->
+            <div class="modal__footer">
+                <span class="modal__price-tag">
+                    1250 ₽
+                </span>
+                <div class="modal__buttons">
+                    <div class="modal__button">
+                        Оформить заказ
+                    </div>
+                    <div class="modal__button">
+                        Отмена
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal__footer -->
+        </div>
+        <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
     <script src="./js/JQuery.min.js"></script>
+    <script src="./js/wow.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
